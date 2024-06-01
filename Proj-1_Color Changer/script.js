@@ -7,8 +7,8 @@ buttons.forEach(function (button) {
   button.addEventListener('click', function (e) {
     console.log(e);
     console.log(e.target);
-    if (e.target.id === 'teal') {
-      body.style.backgroundColor = e.target.id;
+    if (e.target.id === 'yellow') {
+      body.style.backgroundColor = '#FFDB5C';
     }
     if (e.target.id === 'pink') {
       body.style.backgroundColor = '#AF2655';
